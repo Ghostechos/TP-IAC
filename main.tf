@@ -1,4 +1,3 @@
-root@debian:/opt/flask-clone/tofu/proxmox# cat main.tf 
 terraform {
   required_providers {
     proxmox = {
