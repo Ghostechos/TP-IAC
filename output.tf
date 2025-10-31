@@ -1,5 +1,4 @@
-root@debian:/opt/flask-clone/tofu/proxmox# cat outputs.tf 
-output "vm_id" {
+ output "vm_id" {
   value = proxmox_vm_qemu.debian_clone.vmid
 }
 
